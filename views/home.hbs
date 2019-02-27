@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Node Web Server</title>
+</head>
+
+<body>
+
+    {{!Injecting Handlebars Template Using double curly braves with greater sign and a space.}}
+    {{> header}}
+    {{!Injecting Handlebars Data Using double curly braces.}}
+    {{!Pass Data Into Help --> 1st Reference Helper By Name --> 2nd 'space' Data To Pass As Argument To Helper.}}
+    <p>{{screamIt welcomeMessage}}</p>
+
+    {{!Injecting Handlebars Template Using double curly braves with greater sign and a space.}}
+    {{> footer}}
+</body>
+
+</html>
